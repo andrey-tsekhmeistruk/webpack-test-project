@@ -36,6 +36,7 @@
 
   &_bordered {
     border-color: $border-dark;
+    color: $text-dark;
 
     &:hover {
       color: $text-lighter;

@@ -117,7 +117,11 @@
       &-four {
         @media screen and (max-width: $screen-tin) {
           grid-template-areas: "logo info rating"
-                         "logo btn btn";
+                         "logo btn rating";
+
+          .cards__item-col_rating {
+            justify-content: flex-end;
+          }
         }
 
         .cards__item-col_btn {

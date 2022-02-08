@@ -135,36 +135,31 @@
         padding: 42px 32px;
       }
     }
+  }
 
-    &_with-image {
-      &:after {
-        content: '';
-        position: absolute;
-        background: url("../../assets/images/illustration.svg") no-repeat;
-        background-size: contain;
-        bottom: 0;
-        right: 8px;
-        min-width: 105px;
-        max-width: 105px;
-        min-height: 118px;
-        max-height: 118px;
+  &__item-illustration {
+    position: absolute;
+    bottom: 0;
+    right: 8px;
+    min-width: 105px;
+    max-width: 105px;
+    min-height: 118px;
+    max-height: 118px;
 
-        @media screen and (min-width: $screen-sm-min) {
-          right: 24px;
-          min-width: 135px;
-          max-width: 135px;
-          min-height: 148px;
-          max-height: 148px;
-        }
+    @media screen and (min-width: $screen-sm-min) {
+      right: 24px;
+      min-width: 135px;
+      max-width: 135px;
+      min-height: 148px;
+      max-height: 148px;
+    }
 
-        @media screen and (min-width: $screen-md-min) {
-          right: 104px;
-          min-width: 175px;
-          max-width: 175px;
-          min-height: 191px;
-          max-height: 191px;
-        }
-      }
+    @media screen and (min-width: $screen-md-min) {
+      right: 104px;
+      min-width: 175px;
+      max-width: 175px;
+      min-height: 191px;
+      max-height: 191px;
     }
   }
 
